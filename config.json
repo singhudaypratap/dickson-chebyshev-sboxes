@@ -1,0 +1,74 @@
+{
+  "field": {
+    "modulus_poly_hex": "0x11B",
+    "modulus_note": "AES polynomial x^8+x^4+x^3+x+1, irreducible over F_2",
+    "generator": 3,
+    "q": 256
+  },
+  "dickson": {
+    "period_note": "D_n(x,a) on F_q depends on n mod q^2-1 = 65535",
+    "n_max_table": 65536,
+    "explicit_formula_check_nmax": 96,
+    "explicit_formula_check_a_values": [
+      1,
+      2,
+      87,
+      200
+    ],
+    "semigroup_random_pairs": 2000,
+    "param_a_metric_check_count": 12
+  },
+  "random_baseline": {
+    "num_random_permutations": 20000
+  },
+  "quantized_chebyshev": {
+    "degrees": [
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "word_bits": [
+      8,
+      10,
+      12,
+      14,
+      16
+    ]
+  },
+  "collapse_demo": {
+    "rounds": [
+      2,
+      3,
+      4
+    ],
+    "num_trials": 50,
+    "known_pairs": [
+      4,
+      8,
+      16
+    ]
+  },
+  "cipher": {
+    "rounds": 2,
+    "nonce_bytes": 12,
+    "key_bytes": 16,
+    "prf": "HMAC-SHA256",
+    "perm_mode": "sort"
+  },
+  "experiments": {
+    "image_names": [
+      "camera",
+      "moon",
+      "brick",
+      "astronaut"
+    ],
+    "image_sizes": [
+      256,
+      512
+    ],
+    "seed": 20261031,
+    "npcr_trials_per_image": 10
+  }
+}

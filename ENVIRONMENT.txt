@@ -1,0 +1,10 @@
+python 3.13.18
+platform Linux-6.18.44-fc-v185-x86_64-with-glibc2.39
+numpy 2.5.3
+scipy 1.18.1
+matplotlib 3.11.2
+skimage 0.26.0
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)
+GPU runs (server): torch 2.5.1+cu121, CUDA, NVIDIA Quadro RTX 8000 - see results/gpu_m*.log
+NIST runs (server): nistrng 1.2.3
